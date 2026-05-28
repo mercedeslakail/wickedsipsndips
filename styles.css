@@ -18,10 +18,10 @@ a { color: inherit; }
 }
 
 .site-header-inner {
-  max-width: 1080px;
-  margin: 0 auto;
   display: flex; justify-content: space-between; align-items: center;
-  padding: 0 18px;
+   width: 100%;
+   display: flex; justify-content: space-between; align-items: center;
+   padding: 0 24px; box-sizing: border-box;
   min-height: 68px; /* ensure consistent header height for vertical centering */
 }
 .site-nav { display: flex; gap: 24px; }
